@@ -1,7 +1,7 @@
 import React from 'react';
-import css from './NavigationItems.module.css';
-
 import { NavLink } from 'react-router-dom';
+
+import css from './NavigationItems.module.css';
 
 const NavigationItems = props => (
     <ul className={css.List}>
