@@ -1,9 +1,9 @@
 import React from 'react';
 
-import classes from './Test.module.css';
+import css from './Test.module.css';
 
 const button = (props) => (
-    <div className={classes.Button}>TESTING CODE</div>
+    <div className={css.Button}>TESTING CODE</div>
 );
 
 export default button;

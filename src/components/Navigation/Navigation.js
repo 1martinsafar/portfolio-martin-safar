@@ -1,26 +1,26 @@
 import React from 'react';
-import classes from './Navigation.module.css'
+import css from './Navigation.module.css'
 
 import { NavLink } from "react-router-dom";
 
 const Navigation = () => (
-    <nav className={classes.Nav}>
-        <ul className={classes.NavList}>
-            <li className={classes.Name}>
-                <NavLink to="/" className={classes.NavLink} activeClassName={classes.active}>Martin Safar</NavLink>
+    <nav className={css.Nav}>
+        <ul className={css.List}>
+            <li className={css.Name}>
+                <NavLink to="/" className={css.Link} activeClassName={css.active}>Martin Safar</NavLink>
             </li>
-            <li className={classes.NavItem}>
-                <NavLink to="/" exact className={classes.NavLink} activeClassName={classes.active}>Home</NavLink>
+            <li className={css.Item}>
+                <NavLink to="/" exact className={css.Link} activeClassName={css.active}>Home</NavLink>
                 </li>
-            <li className={classes.NavItem}>
-                <NavLink to="/portfolio" className={classes.NavLink} activeClassName={classes.active}>Portfolio</NavLink>
+            <li className={css.Item}>
+                <NavLink to="/portfolio" className={css.Link} activeClassName={css.active}>Portfolio</NavLink>
                 </li>
-            <li className={classes.NavItem}>
-                <NavLink to="/about" className={classes.NavLink} activeClassName={classes.active}>About</NavLink>
+            <li className={css.Item}>
+                <NavLink to="/about" className={css.Link} activeClassName={css.active}>About</NavLink>
                 </li>
-            <li className={classes.NavItem}>
-                <NavLink to="/contact" className={classes.NavLink} activeClassName={classes.active}>Contact</NavLink>
-                </li>
+            <li className={css.Item}>
+                <NavLink to="/contact" className={css.Link} activeClassName={css.active}>Contact</NavLink>
+            </li>
         </ul>
     </nav>
 );

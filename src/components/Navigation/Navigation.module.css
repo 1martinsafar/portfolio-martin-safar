@@ -1,7 +1,7 @@
 .Nav {
     background: black;
 }
-.NavList {
+.List {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,11 +10,11 @@
     padding: 8px 0;
     margin: 0;
 }
-.NavItem {
+.Item {
     list-style: none;
     padding: 8px 24px;
 }
-.NavLink {
+.Link {
     color: #19b5fe;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -24,11 +24,11 @@
     left: 2%;
     top: 25%;
     color: #19b5fe;
+    font-size: 1.25rem;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 .active {
     color: white;
-    font-size: 1.25rem;
 }
