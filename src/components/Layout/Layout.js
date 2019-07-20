@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import css from "./Layout.module.css";
+import React, { Component } from 'react';
+import css from './Layout.module.css';
 
-import Toolbar from "../Navigation/Toolbar/Toolbar";
-import SideDrawer from "../Navigation/SideDrawer/SideDrawer";
+import Toolbar from '../Navigation/Toolbar/Toolbar';
+import SideDrawer from '../Navigation/SideDrawer/SideDrawer';
 
 class Layout extends Component {
     state = {
@@ -29,11 +29,13 @@ class Layout extends Component {
                     isDesktop={isDesktop}
                     drawerToggleClicked={this.sideDrawerToggleHandler}
                 />
-                <SideDrawer
-                    isDesktop={isDesktop}
-                    open={this.state.showSideDrawer}
-                    closed={this.sideDrawerClosedHandler}
-                />
+                {!isDesktop && (
+                    <SideDrawer
+                        open={this.state.showSideDrawer}
+                        closed={this.sideDrawerClosedHandler}
+                    />
+                )}
+
                 <main className={css.Layout}>{this.props.children}</main>
             </React.Fragment>
         );
