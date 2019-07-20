@@ -1,19 +1,43 @@
-import React from 'react';
-import css from './Layout.module.css';
+import React, { Component } from "react";
+import css from "./Layout.module.css";
 
-import Navigation from '../Navigation/Navigation';
-// import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
+import Toolbar from "../Navigation/Toolbar/Toolbar";
+import SideDrawer from "../Navigation/SideDrawer/SideDrawer";
 
-const Layout = props => {
-  return (
-    <React.Fragment>
-        <Navigation />
-        {/* <SideDrawer /> */}
-        <main className={css.Layout}>
-            {props.children}
-        </main>
-    </React.Fragment>
-  );
+class Layout extends Component {
+    state = {
+        showSideDrawer: false,
+    };
+
+    sideDrawerClosedHandler = () => {
+        this.setState({ showSideDrawer: false });
+    };
+
+    sideDrawerToggleHandler = () => {
+        this.setState(prevState => {
+            return { showSideDrawer: !prevState.showSideDrawer };
+        });
+    };
+
+    render() {
+        const { isDesktop } = this.props;
+        console.log(`isDesktop: ${isDesktop}`);
+
+        return (
+            <React.Fragment>
+                <Toolbar
+                    isDesktop={isDesktop}
+                    drawerToggleClicked={this.sideDrawerToggleHandler}
+                />
+                <SideDrawer
+                    isDesktop={isDesktop}
+                    open={this.state.showSideDrawer}
+                    closed={this.sideDrawerClosedHandler}
+                />
+                <main className={css.Layout}>{this.props.children}</main>
+            </React.Fragment>
+        );
+    }
 }
 
 export default Layout;

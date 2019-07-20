@@ -1,6 +1,3 @@
-.Nav {
-    background: black;
-}
 .List {
     display: flex;
     align-items: center;
@@ -9,6 +6,13 @@
     font-size: 1.5rem;
     padding: 8px 0;
     margin: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
 }
 .Item {
     list-style: none;
@@ -17,6 +21,7 @@
 .Link {
     color: #19b5fe;
     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     text-decoration: none;
 }
 .Name {
@@ -30,5 +35,20 @@
     margin: 0;
 }
 .active {
-    color: white;
+    color: black;
+}
+
+@media (min-width: 500px) {
+    .List {
+        flex-flow: row;
+    }
+}
+
+@media (min-width: 1000px) {
+    .Link {
+        font-weight: 500;
+    }
+    .active {
+        color: white;
+    }
 }
