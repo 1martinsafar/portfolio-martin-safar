@@ -1,0 +1,22 @@
+.Heading {
+    align-self: center;
+    color: #19b5fe;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.SmallFont {
+    font-size: 1.3rem;
+}
+
+.SmallMargin {
+    margin-top: 0.7rem;
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 1000px) {
+    .Heading {
+        align-self: flex-start;
+        font-size: 2rem;
+    }
+}
