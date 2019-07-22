@@ -21,7 +21,6 @@ class Layout extends Component {
 
     render() {
         const { isDesktop } = this.props;
-        console.log(`isDesktop: ${isDesktop}`);
 
         return (
             <React.Fragment>
