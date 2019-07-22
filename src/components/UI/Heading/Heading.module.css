@@ -14,9 +14,12 @@
     margin-bottom: 0.5rem;
 }
 
+.Left {
+    align-self: flex-start;
+}
+
 @media (min-width: 1000px) {
     .Heading {
-        align-self: flex-start;
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 }

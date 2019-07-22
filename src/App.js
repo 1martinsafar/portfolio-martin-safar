@@ -45,7 +45,7 @@ class App extends Component {
                 <div>
                     <Layout isDesktop={isDesktop}>
                         <Switch>
-                            <Route path="/portfolio/" component={Portfolio} />
+                            <Route path="/portfolio/" render={() => <Portfolio isDesktop={isDesktop} />} />
                             <Route path="/about/" component={About} />
                             <Route path="/contact/" component={Contact} />
                             <Route path="/" exact component={Intro} />

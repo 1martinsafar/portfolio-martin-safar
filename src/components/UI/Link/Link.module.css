@@ -19,5 +19,7 @@
 }
 
 @media (min-width: 1000px) {
-
+    .Link {
+        font-size: 1.3rem;
+    }
 }
