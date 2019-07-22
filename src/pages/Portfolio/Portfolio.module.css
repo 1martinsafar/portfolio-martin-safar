@@ -11,6 +11,8 @@
     flex-direction: column;
     background: black;
     padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .ProjectWrapper {
@@ -26,6 +28,7 @@
     .Wrapper {
         flex-direction: row;
         flex-wrap: wrap;
+        margin-bottom: 3rem;
     }
 
     .ProjectWrapper {

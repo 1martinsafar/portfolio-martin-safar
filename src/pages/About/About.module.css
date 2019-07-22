@@ -40,22 +40,6 @@
     justify-content: center;
 }
 
-.Footer {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: black;
-    padding: 1rem 0;
-}
-
-.Footer .Email {
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
-}
-
 .Headline {
     color: #19b5fe;
 }
@@ -81,45 +65,6 @@
     color: #19b5fe;
 }
 
-.Social {
-    display: inline-block;
-    text-indent: -9999px;
-    opacity: 1;
-    transition: opacity 0.5s;
-    width: 60px;
-    height: 60px;
-    background-size: 60px 60px;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
-.Social:hover,
-.Social:active {
-    opacity: 0.6;
-}
-
-.GitHub {
-    composes: Social;
-    background-image: url('../../svgs/github.svg');
-    background-repeat: no-repeat;
-}
-
-.LinkedIn {
-    composes: Social;
-    background-image: url('../../svgs/linkedin.svg');
-    background-repeat: no-repeat;
-}
-
-.Twitter {
-    composes: Social;
-    background-image: url('../../svgs/twitter.svg');
-    background-repeat: no-repeat;
-}
-
-.Email {
-    font-size: 1.5rem;
-}
-
 .Skill {
     min-width: 8rem;
     display: inline-flex;
@@ -142,11 +87,6 @@
 .About h2 {
     align-self: center;
     font-size: 1.6rem;
-}
-
-.Footer h2 {
-    align-self: center;
-    margin: 0;
 }
 
 .About p {
@@ -185,10 +125,6 @@
         width: 45%;
         align-items: flex-start;
     }
-    
-    .Footer {
-        padding: 3rem 0;
-    }
 
     .Skill {
         font-size: 1rem;
@@ -201,11 +137,6 @@
     .About h2 {
         align-self: flex-start;
         font-size: 2rem;
-    }
-
-    .Footer h2 {
-        align-self: center;
-        margin: 0;
     }
 
     .About p {
