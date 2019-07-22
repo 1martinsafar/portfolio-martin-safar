@@ -1,0 +1,20 @@
+.Portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 6rem;
+}
+
+.Wrapper {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    padding-top: 2rem;
+}
+
+@media (min-width: 1000px) {
+    .Portfolio {
+        margin-top: 10rem;
+    }
+}
