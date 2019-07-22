@@ -53,7 +53,7 @@ const About = () => {
 
                     <div className={css.Content}>
                         <h2 className={css.Headline}>SKILLS</h2>
-                        <p class="about-p skills">
+                        <p>
                             Technologies I am familiar with:
                             <br />
                             <br />
@@ -142,7 +142,7 @@ const About = () => {
                                 See Certificate
                             </a>
                         </p>
-                        <p class="about-p">
+                        <p>
                             You can check my{' '}
                             <a
                                 className={css.Link}
@@ -154,10 +154,10 @@ const About = () => {
                             </a>
                             .
                         </p>
-                        <p class="about-p">
+                        <p>
                             Cambridge English: Advanced (CAE) Certificate (C1).
                         </p>
-                        <p class="about-p">
+                        <p>
                             College: 2 successfully finished years at: <br />{' '}
                             (Masaryk University in Brno, Czech Republic)
                             majoring in Applied Informatics. <br />
@@ -166,7 +166,7 @@ const About = () => {
                             experience as a programmer in 2018. <br />
                             Resuming my college studies in 2019.
                         </p>
-                        <p class="about-p">
+                        <p>
                             My favorite self-study resource:{' '}
                             <a
                                 className={css.Link}
@@ -177,7 +177,7 @@ const About = () => {
                                 Udemy
                             </a>
                         </p>
-                        <p class="about-p">
+                        <p>
                             A few examples of the courses I took at Udemy:
                             <br />
                             <a
@@ -230,11 +230,11 @@ const About = () => {
 
                     <div className={css.Content}>
                         <h2 className={css.Headline}>HOBBIES</h2>
-                        <p class="about-p">
+                        <p>
                             <span className={css.Headline}>Programming </span>{' '}
                             => currently Java, Frontend Web Development
                         </p>
-                        <p class="about-p">
+                        <p>
                             <span className={css.Headline}>English </span> => I
                             have always been very passionate about English
                             language and have spent a lot of my free time on
@@ -242,21 +242,21 @@ const About = () => {
                             American Accent. Rachel's English Academy is one of
                             my favorite resources.
                         </p>
-                        <p class="about-p">
+                        <p>
                             <span className={css.Headline}>Health </span> =>
                             Feeling healthy and fit increases your productivity,
                             both your body and mind.
                         </p>
-                        <p class="about-p">
+                        <p>
                             <span className={css.Headline}>Traveling </span> =>
                             I enjoy traveling, I would love to visit US and
                             Canada.
                         </p>
-                        <p class="about-p">
+                        <p>
                             <span className={css.Headline}>Food </span> => I
                             occasionally cook for my family.
                         </p>
-                        <p class="about-p">
+                        <p>
                             <span className={css.Headline}>Self-study </span> =>
                             I have been investing majority of my free time in
                             learning, studying and improving myself.
