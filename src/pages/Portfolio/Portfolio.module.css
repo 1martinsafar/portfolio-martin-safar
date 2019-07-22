@@ -13,8 +13,22 @@
     padding-top: 2rem;
 }
 
+.ProjectWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
 @media (min-width: 1000px) {
     .Portfolio {
         margin-top: 10rem;
+    }
+    
+    .Wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .ProjectWrapper {
+        flex-direction: row;
     }
 }
