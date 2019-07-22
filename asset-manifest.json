@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/1martinsafar/portfolio-martin-safar/static/css/main.c1c5e0f9.chunk.css",
+    "main.js": "/1martinsafar/portfolio-martin-safar/static/js/main.d5f37fb9.chunk.js",
+    "main.js.map": "/1martinsafar/portfolio-martin-safar/static/js/main.d5f37fb9.chunk.js.map",
+    "runtime~main.js": "/1martinsafar/portfolio-martin-safar/static/js/runtime~main.c1b26efc.js",
+    "runtime~main.js.map": "/1martinsafar/portfolio-martin-safar/static/js/runtime~main.c1b26efc.js.map",
+    "static/js/2.490cea8e.chunk.js": "/1martinsafar/portfolio-martin-safar/static/js/2.490cea8e.chunk.js",
+    "static/js/2.490cea8e.chunk.js.map": "/1martinsafar/portfolio-martin-safar/static/js/2.490cea8e.chunk.js.map",
+    "index.html": "/1martinsafar/portfolio-martin-safar/index.html",
+    "precache-manifest.62bd4c882907df072915e47ec8aa20ba.js": "/1martinsafar/portfolio-martin-safar/precache-manifest.62bd4c882907df072915e47ec8aa20ba.js",
+    "service-worker.js": "/1martinsafar/portfolio-martin-safar/service-worker.js",
+    "static/css/main.c1c5e0f9.chunk.css.map": "/1martinsafar/portfolio-martin-safar/static/css/main.c1c5e0f9.chunk.css.map",
+    "static/media/Intro.module.css": "/1martinsafar/portfolio-martin-safar/static/media/background.20cf39aa.jpg",
+    "static/media/content-scraper.png": "/1martinsafar/portfolio-martin-safar/static/media/content-scraper.1e5af15a.png",
+    "static/media/fullstackjs-project3-large.png": "/1martinsafar/portfolio-martin-safar/static/media/fullstackjs-project3-large.3aed8a8b.png",
+    "static/media/fullstackjs-project4-large.png": "/1martinsafar/portfolio-martin-safar/static/media/fullstackjs-project4-large.96f9a3bc.png",
+    "static/media/Footer.module.css": "/1martinsafar/portfolio-martin-safar/static/media/twitter.5e9b2560.svg",
+    "static/media/project-currency-conversion.png": "/1martinsafar/portfolio-martin-safar/static/media/project-currency-conversion.f6b7f4c4.png",
+    "static/media/project-portfolio.png": "/1martinsafar/portfolio-martin-safar/static/media/project-portfolio.a2c427d7.png",
+    "static/media/project-regiojet.png": "/1martinsafar/portfolio-martin-safar/static/media/project-regiojet.6d081a40.png",
+    "static/media/project10-large.png": "/1martinsafar/portfolio-martin-safar/static/media/project10-large.f5e4f964.png",
+    "static/media/project11-large.png": "/1martinsafar/portfolio-martin-safar/static/media/project11-large.b0b4da27.png",
+    "static/media/project2-large.png": "/1martinsafar/portfolio-martin-safar/static/media/project2-large.d5635127.png",
+    "static/media/project3-large.png": "/1martinsafar/portfolio-martin-safar/static/media/project3-large.5192ce13.png",
+    "static/media/project4-large.png": "/1martinsafar/portfolio-martin-safar/static/media/project4-large.55e6b4aa.png",
+    "static/media/project5-large.png": "/1martinsafar/portfolio-martin-safar/static/media/project5-large.a24dd047.png",
+    "static/media/project6-large.png": "/1martinsafar/portfolio-martin-safar/static/media/project6-large.c6da6d2a.png",
+    "static/media/project7-large.png": "/1martinsafar/portfolio-martin-safar/static/media/project7-large.dc1a4231.png",
+    "static/media/project8-large.png": "/1martinsafar/portfolio-martin-safar/static/media/project8-large.e07a3fd4.png",
+    "static/media/project9-large.png": "/1martinsafar/portfolio-martin-safar/static/media/project9-large.b37bf9ec.png"
+  }
+}
