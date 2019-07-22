@@ -209,7 +209,7 @@ const projectData = [
         linkCheck: 'https://shop.regiojet.cz/',
         linkFiles: null,
         skills: `React, Redux, Next.js, Flow.js, React-intl, Axios, REST, Lodash.js, many other JS libraries`,
-        description: `The new reservation system for Regiojet trains/buses (Student Agency). More information in the About section.`,
+        description: `The new reservation system for Regiojet trains & buses (Student Agency). More information in the About section.`,
     },
 ];
 
