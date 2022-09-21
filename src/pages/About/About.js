@@ -10,18 +10,19 @@ const About = () => {
                 <div className={css.AboutMe}>
                     <h1 className={css.Headline}>ABOUT ME</h1>
                     <p>
-                        I am an aspiring Programmer with skills mainly in React,
-                        JavaScript, Redux, Java, HTML, CSS, Node.js, Express.js.
+                        I am an aspiring Web Developer with skills mainly in
+                        React, Node.js, TypeScript, Redux, JavaScript, HTML, CSS.
                         <br />
                         I strive to learn to write quality code and explore all
                         kinds of areas in programming.
-                        <br /> Working on meaningful projects in friendly
+                        <br /> Working on meaningful projects in a friendly
                         atmosphere is what I aim for.
                         <br />
-                        Never-ending education, self-study and self-improvement
+                        Never-ending education, self-study, and self-improvement
                         are all very important to me.
-                        <br /> I have been working as a React Developer at
-                        Student Agency for a bit over a year now.{' '}
+                        <br />
+                        I worked as a React Developer at Student Agency for 14 months.
+                        <br /> I finished my studies at Masaryk University in 2021.{' '}
                     </p>
                     <p>
                         English <span className={css.Highlight}>C1</span>
@@ -56,30 +57,30 @@ const About = () => {
                     <div className={css.Content}>
                         <h2 className={css.Headline}>SKILLS</h2>
                         <p>
-                            Technologies I am familiar with:
+                            Technologies I have used:
                             <br />
                             <br />
                             <span className={css.Skill}>React</span>
+                            <span className={css.Skill}>Node.js</span> <br />
+                            <span className={css.Skill}>TypeScript</span>
                             <span className={css.Skill}>JavaScript</span> <br />
-                            <span className={css.Skill}>Java</span>
-                            <span className={css.Skill}>SQL</span> <br />
-                            <span className={css.Skill}>HTML</span>
-                            <span className={css.Skill}>CSS</span> <br /> <br />
-                            <span className={css.Skill}>Git</span>
+                            <span className={css.Skill}>Redux</span>
+                            <span className={css.Skill}>HTML</span> <br /> <br />
+                            <span className={css.Skill}>CSS</span>
                             <span className={css.Skill}>
                                 GitHub
                             </span> <br /> <br />
-                            <span className={css.Skill}>Redux</span>
-                            <span className={css.Skill}>Axios</span> <br />
                             <span className={css.Skill}>Express.js</span>
+                            <span className={css.Skill}>Axios</span> <br />
+                            <span className={css.Skill}>SQL</span>
                             <span className={css.Skill}>MongoDB </span> <br />
                             <span className={css.Skill}>C#</span>
                             <span className={css.Skill}>ASP.NET MVC</span>{' '}
                             <br /> <br />
-                            <span className={css.Skill}>Sass</span>
+                            <span className={css.Skill}>Rust</span>
                             <span className={css.Skill}>CSS Modules</span>{' '}
                             <br />
-                            <span className={css.Skill}>Bootstrap</span>
+                            <span className={css.Skill}>Java</span>
                             <span className={css.Skill}>
                                 Responsive Design{' '}
                             </span>{' '}
@@ -132,6 +133,9 @@ const About = () => {
                             EDUCATION &#38; SELF STUDY
                         </h2>
                         <p>
+                            I have taken multiple courses at Udemy. It is one of my favorite studying methods.
+                        </p>
+                        <p>
                             I have earned a Techdegree Certificate in Front End
                             Web Development at Treehouse.
                             <a
@@ -160,8 +164,8 @@ const About = () => {
                             Cambridge English: Advanced (CAE) Certificate (C1).
                         </p>
                         <p>
-                            College: 2 successfully finished years at: <br />{' '}
-                            (Masaryk University in Brno, Czech Republic)
+                            College:<br />
+                            Masaryk University in Brno, Czech Republic<br />
                             majoring in Applied Informatics. <br />
                             <br />
                             I decided to pause my college studies to gain work
@@ -184,20 +188,29 @@ const About = () => {
                             <br />
                             <a
                                 className={css.LinkSolo}
-                                href="https://www.udemy.com/java-the-complete-java-developer-course/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Java Developer
-                            </a>
-                            <br />
-                            <a
-                                className={css.LinkSolo}
                                 href="https://www.udemy.com/react-the-complete-guide-incl-redux/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
                                 React and Redux
+                            </a>
+                            <br />
+                            <a
+                                className={css.LinkSolo}
+                                href="https://www.udemy.com/course/nodejs-the-complete-guide/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Node.js
+                            </a>
+                            <br />
+                            <a
+                                className={css.LinkSolo}
+                                href="https://www.udemy.com/java-the-complete-java-developer-course/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Java
                             </a>
                             <br />
                             <a
@@ -234,7 +247,7 @@ const About = () => {
                         <h2 className={css.Headline}>HOBBIES</h2>
                         <p>
                             <span className={css.Headline}>Programming </span>{' '}
-                            => currently Java, Frontend Web Development
+                            => currently Web Development, focusing on React.js
                         </p>
                         <p>
                             <span className={css.Headline}>English </span> => I
