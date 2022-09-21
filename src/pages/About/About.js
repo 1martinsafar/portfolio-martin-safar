@@ -167,10 +167,6 @@ const About = () => {
                             College:<br />
                             Masaryk University in Brno, Czech Republic<br />
                             majoring in Applied Informatics. <br />
-                            <br />
-                            I decided to pause my college studies to gain work
-                            experience as a programmer in 2018. <br />
-                            Resuming my college studies in 2019.
                         </p>
                         <p>
                             My favorite self-study resource:{' '}
