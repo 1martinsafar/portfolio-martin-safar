@@ -2,7 +2,7 @@
   "name": "portfolio-martin-safar",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/1martinsafar/portfolio-martin-safar",
+  "homepage": "https://1martinsafar.github.io",
   "dependencies": {
     "@babel/core": "7.4.3",
     "@svgr/webpack": "4.1.0",
